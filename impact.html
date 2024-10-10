@@ -30,5 +30,11 @@
       </iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <script>
+      var key1Display = document.getElementById('data-display-key1');
+      var key2Display = document.getElementById('data-display-key2');
+      key1Display.textContent = localStorage.getItem('key1');
+      key2Display.textContent = localStorage.getItem('key2');
+    </script>
   </body>
 </html>
